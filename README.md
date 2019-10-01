@@ -3,7 +3,7 @@
 BioConda Docker image
 
 * [GitHub](https://github.com/informationsea/bioconda-docker)
-* [DockerHub](https://cloud.docker.com/repository/docker/informationsea/bioconda)
+* [DockerHub](https://hub.docker.com/r/informationsea/bioconda)
 
 ## Upstream Project
 
