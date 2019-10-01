@@ -7,3 +7,5 @@ RUN apt-get update -y && apt-get install -y curl && apt-get clean -y && \
     /opt/miniconda3/bin/conda config --add channels bioconda && \
     /opt/miniconda3/bin/conda config --add channels conda-forge
 ENV PATH /opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ADD run.sh /
+ENTRYPOINT [ "/bin/bash", "/run.sh" ]
